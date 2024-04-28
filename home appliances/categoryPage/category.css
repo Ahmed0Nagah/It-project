@@ -1,0 +1,213 @@
+/* CSS code (styles.css) */
+
+body {
+    background-color: #ffda9b;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header{
+    top: 0;
+    left: 0;
+    /* width: 100%; */
+    height: 70px;
+    padding: 10px 100px;
+    background:rgb(246, 164, 63);
+    display: flex;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    margin: auto 0;
+}
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: red;
+    transition-duration: 0.3s;
+}
+/* Header */
+
+.landing {
+    text-align: center;
+    margin-top: 0px; 
+    padding: 170px; 
+    color: white; 
+    background-image: url('../photos/online-store-small-business-blog.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.landing h1 {
+    position: absolute;
+    right: 50px;
+    transform: translateX(-50%);
+    top: 30%;
+    transform: translateY(-50%);
+    font-size: 50px;
+}
+
+.landing h2 {
+    position: absolute;
+    right: 95px;
+    transform: translateX(-50%);
+    top: 47%;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 40px auto 80px;
+}
+
+.cardContainer{
+    width: 230px;
+    height: 365px;
+    color: white;
+    border-radius: 10px;
+    margin: 50px auto;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    width: 100%;
+    height: calc(100% - 40px);
+    background-color: #FDB432;
+    border: solid 1px #EF4651;
+    border-bottom: none;
+    color: white;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 50px auto 0;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+}
+
+.card h2{
+    height: 55px;
+}
+
+.card:hover {
+    opacity: 0.75;
+}
+
+.card img {
+    max-width: 178px;
+    max-height: 178px;
+    margin-bottom: 10px;
+}
+
+.price {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover .price {
+    opacity: 1;
+}
+
+.cartButton {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    color: #EF4651;
+    border: 1px solid #EF4651;
+    border-top: none;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+
+}
+
+.cartButton:hover {
+    background-color: #EF4651;
+    color: white;
+}
+
+.card:hover .cartButton {
+    opacity: 1;
+}
+
+
+/* Footer */
+footer{
+    position: relative;
+    top: 100%;
+    background-color: rgb(246, 164, 63);
+    width: 100%;
+    padding: 20px 10px 15px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social a{
+    text-decoration: none;
+    padding: 1px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+
+}
+footer a i {
+    padding: 1px;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.social a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.social a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.Gega{
+    color: white;
+    text-align: center;
+    font-weight:bold;
+}
+/* Footer */
