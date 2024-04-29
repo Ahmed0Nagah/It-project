@@ -12,3 +12,9 @@ function weapons(){
 function home_appliances(){
     open("../home appliances/categoryPage/category.html");
 }
+function cars(){
+    open("../CARS/Project.html");
+}
+function Accesories(){
+    open("../Accesories/Gega accessories.html");
+}

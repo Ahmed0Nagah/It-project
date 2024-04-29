@@ -126,6 +126,49 @@ nav ul li a:hover{
     transform: translateX(-50%);
 }
 
+/* Product Details Table */
+.productTable {
+    width: 100%;
+    margin-top: 90px;
+    border-collapse: collapse;
+}
+
+.productTable th, .productTable td {
+    padding: 10px;
+    text-align: left;
+}
+
+.productTable th {
+    background-color: #EF4651;
+    color: white;
+}
+
+.productTable td {
+    background-color: #FDB432;
+    color: black;
+}
+/* Product Details Table */
+
+/* Video */
+.videoWrapper {
+    position: relative;
+    padding-bottom: 300px;
+    padding-top: 25px;
+    height: auto;
+    width: 575px;
+    margin-top: 90px;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Video */
+
 .cardContainer{
     width: 230px;
     height: 365px;

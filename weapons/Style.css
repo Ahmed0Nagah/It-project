@@ -1,9 +1,9 @@
 body, html {
   margin: 0;
   padding: 0;
-  background-image: url('Images/Background.png');
+  background-image: url('Images/Background2.png');
   background-size: cover;
-  background-position: center -310px;
+  background-position: center -200px;
   min-height: 100vh;
 }
 
@@ -13,6 +13,8 @@ body, html {
   width: 100% auto;
   height: 110px;
   padding: 10px 100px;
+  border-bottom: 4px solid white;
+  margin-bottom: 40px;
   background:rgb(246, 164, 63);
 }
 .navbar{
@@ -40,6 +42,8 @@ nav ul li a:hover{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 40px;
+  border-bottom: 4px solid rgb(255, 255, 255);
 }
 
 .row {
@@ -84,6 +88,7 @@ nav ul li a:hover{
 .search-container {
   margin-top: 20px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 #search-input {
@@ -109,12 +114,92 @@ nav ul li a:hover{
   background-color: rgb(246, 164, 63);
 }
 
+.contact {
+  min-height :10vh;
+  padding: 50px;
+  text-align: center;
+} 
+.contact-container{
+  position: center;
+  flex: 1;
+  max-width:800px ;
+  margin :0 auto ;
+}
+.contact-container h2{
+font-size: 36px;
+margin-bottom:  40px;
+color: #110a0a;
+}
+.contact-wrapper{
+  flex: 1;
+  max-width: 600px;
+  margin: 0 auto ;
+  display: block;
+}
+.contact-form{
+  text-align: center;
+  position: center;
+}
+.contact-form h3{
+font-size: 24px;
+margin-bottom: 20px;
+color: #333;
+}
+.form-group{
+  margin-bottom: 20px;
+}
+input, textarea {
+  width:100%;
+  padding:12px ;
+  border-radius:8px;
+  border:none;
+  background-color:#f8f9fa;
+  color:#333
+}
+
+textarea {
+  height: 100px !important;
+}
+input:focus,
+textarea:focus{
+  outline:none;
+  box-shadow:0 0 8px #bbb;
+}
+button{
+  display:inline-block;
+  padding:12px 24px;
+  background-color: rgb(256,84,20);
+  color:#fff;
+  border:none;
+  border:none;cursor:pointer;
+  transition: 0.1em;
+}
+
+button:hover{
+  background-color: rgb(246, 164, 63);
+}
+
+.success-message {
+  background-color: #dff0d8;
+  color: #3c763d;
+  padding: 10px;
+  border: 1px solid #d6e9c6;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+
 footer{
   position: relative;
   top: 100%;
   background-color: rgb(246, 164, 63);
   width: 100% auto;
   padding: 20px 10px 15px;
+  margin-top: 40px;
+  border-top: 4px solid white;
 }
 .social{
   display: flex;

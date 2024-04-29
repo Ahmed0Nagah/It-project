@@ -7,9 +7,17 @@ document.getElementById("search-button").addEventListener("click", function() {
     var text = image.querySelector(".text").textContent.trim().toLowerCase();
     console.log("Image text:", text);
     if (text.includes(query)) {
-      image.style.display = "flex"; // Show the image box
+      image.style.display = "flex";
     } else {
-      image.style.display = "none"; // Hide the image box
+      image.style.display = "none";
     }
   });
+});
+
+
+
+document.getElementById('sendButton').addEventListener('click', function() {
+  var statusDiv = document.getElementById('messageStatus');
+  statusDiv.innerHTML = "Message sent successfully!";
+  statusDiv.className = 'success-message';
 });

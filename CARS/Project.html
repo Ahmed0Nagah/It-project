@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>motor show </title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(https://mallaky.com/Media/Images/Gallery/PhotoGallery/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AE%D8%A7%D8%B1%D9%82%D9%87/%D9%84%D8%A7%D9%85%D8%A8%D9%88%D8%B1%D8%AC%D9%8A%D9%86%D9%8A-%D8%B3%D9%8A%D8%B3%D8%AA%D9%88%20%D8%A7%D9%84%D9%8A%D9%85%D9%86%D8%AA%D9%88/L011701.jpg)
+        }
+        .header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding: 10px 100px;
+    background:rgb(246, 164, 63);
+  }
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 10px;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  nav ul li a:hover{
+    color: red;
+    transition-duration: 0.3s;
+  }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding-top: 20px;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+        }
+        .car {
+            width: 30%;
+            background: #c8afc4;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgb(0, 255, 255);
+            transition: all 0.3s ease-in-out;
+            margin-bottom: 20px;
+        }
+        .car:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.037);
+        }
+        .car img {
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .car-info {
+            padding: 20px;
+        }
+        .car-info h3 {
+            margin-top: 0;
+        }
+        footer{
+    position: relative;
+    top: 100%;
+    background-color: rgb(246, 164, 63);
+    width: 100%;
+    padding: 20px 10px 15px;
+  }
+  .social{
+    display: flex;
+    justify-content: center;
+  }
+  .social a{
+    text-decoration: none;
+    padding: 1px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%;
+  
+  }
+  footer a i {
+    padding: 1px;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    border-radius: 50%;
+  }
+  .social a:hover{
+    background-color: #111;
+    transition: 0.5s;
+  }
+  .social a:hover i{
+    color: white;
+    transition: 0.5s;
+  }
+  .Gega{
+    color: white;
+    text-align: center;
+    font-weight:bold;
+  }
+  button {
+            background-color: #21c8de57;
+            color: rgb(0, 0, 0);
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+          <h1 style="font-size: 40px; color: white;font-weight: bold;">Gega store</h1>
+          <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="contact us">contact us</a></li>
+            <li><a href="about">about</a></li>
+          </ul>
+        </nav>
+      </header>
+<div class="container">
+    <!-- First Row -->
+    <div class="row">
+        <div class="car">
+            <img src="https://i.pinimg.com/736x/15/be/db/15bedbe9988bb9122b17d118a9cbda63--modified-cars-muscle-cars.jpg" alt="Car 1">
+            <div class="car-info">
+                <h3>Mercedes amg </h3>
+               
+                <p>price : $280,000</p>
+                <a href="lambo7.html"><button type="button"> <h3> Buy </h3> </button></a>
+            </div>
+        </div>
+        <div class="car">
+            <img src="https://car.mallaky.com/wp-content/uploads/2022/06/%D8%AA%D9%88%D9%8A%D9%88%D8%AA%D8%A7-%D8%B3%D9%88%D8%A8%D8%B1%D8%A7-2022-...jpg" alt="Car 2">
+            <div class="car-info">
+                <h3>Toyota Supra</h3>
+                
+                
+                <p>price : $160,000</p>
+                <a href="lambo7.html"><button type="button"> <h3> Buy </h3> </button></a>
+            </div>
+        </div>
+        <div class="car">
+            <img src="https://arabgt.com/wp-content/uploads/2020/08/%D8%B3%D9%8A%D8%A7%D8%B1%D8%A9-%D8%AA%D9%8A%D8%B3%D9%84%D8%A7-%D9%85%D9%88%D8%AF%D9%8A%D9%84-%D9%88%D8%A7%D9%8A-16.jpg" alt="Car 3">
+            <div class="car-info">
+                <h3>Tesla model X</h3>
+                <p></p>
+                <p>price : $120,000</p>
+                <a href="lambo7.html"><button type="button"> <h3> Buy </h3> </button></a>
+            </div>
+        </div>
+    </div>
+    <!-- Second Row -->
+    <div class="row">
+        <div class="car">
+            <img src="https://s1.cdn.autoevolution.com/images/news/gallery/nissan-gt-r-receives-anniversary-edition-just-in-time-for-the-new-york-auto-show_21.jpg" alt="Car 4">
+            <div class="car-info">
+                <h3>Nissan gt r</h3>
+                <p></p>
+                <p>price : $240,000</p>
+                <a href="lambo7.html"><button type="button"> <h3> Buy </h3> </button></a>
+            </div>
+        </div>
+        <div class="car">
+            <img src="https://th.bing.com/th/id/R.da050b9a743620188da500f43e77a464?rik=9RmZkZEX5P3oIw&pid=ImgRaw&r=0" alt="Car 5">
+            <div class="car-info">
+                <h3> McLaren 720S </h3>
+                <p></p>
+                
+                <p>price: $600,000</p>
+                <a href="lambo7.html"><button type="button"> <h3> Buy </h3> </button></a>
+            </div>
+        </div>
+        <div class="car">
+            <img src="https://th.bing.com/th/id/OIP.WdPUntYFVwN1AUGVVcPGZAHaEK?rs=1&pid=ImgDetMain" alt="Car 6">
+            <div class="car-info">
+                <h3>Bmw m5</h3>
+                <p></p>
+                
+                <p>price: $270,000</p>
+                <a href="lambo7.html"><button type="button"> <h3> Buy </h3> </button></a>
+            </div>
+        </div>
+    </div>
+    <!-- Third Row -->
+    <div class="row">
+        <div class="car">
+            <img src="https://th.bing.com/th/id/OIP.exwFxQRD3J0_i7uPVN20KgHaE8?w=2400&h=1600&rs=1&pid=ImgDetMain" alt="Car 7">
+            <div class="car-info">
+                <h3>Lamborghini Huracán</h3>
+                <p></p>
+                <p>price: $420,000</p>
+                <a href="lambo7.html"><button type="button"> <h3> Buy </h3> </button></a>
+            </div>
+        </div>
+        <div class="car">
+            <img src="https://cdn.elferspot.com/wp-content/uploads/2022/05/PORSCHE-991-GT3-RS-kaufen-01.jpg" alt="Car 8">
+            <div class="car-info">
+                <h3>Porsche 911 GT3</h3>
+                <p></p>
+                
+                <p>price: $220,000</p>
+                <a href="lambo7.html"><button type="button"> <h3> Buy </h3> </button></a>
+            </div>
+        </div>
+        <div class="car">
+            <img src="https://th.bing.com/th/id/R.521ed90a72370c07cb20168db5bb805e?rik=hfeZxDML4x5%2bjg&riu=http%3a%2f%2fwww.car-revs-daily.com%2fwp-content%2fuploads%2f2017%2f01%2fFERRARI-LaFerrari-4797_35.jpeg&ehk=QUovJc%2fWdX1k29W07xUs9sJlVs3iNSYZaXwBatW%2bSUY%3d&risl=&pid=ImgRaw&r=0" alt="Car 9">
+            <div class="car-info">
+                <h3>LaFerrari</h3>
+                <p></p>
+                
+                <p>price: $2.4M</p>
+                <a href="lambo7.html"><button type="button"> <h3> Buy </h3> </button></a>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <h1 class="Gega">Gega store</h1><br>
+    <div class="social">
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-facebook-messenger"></i></a>
+  </div> 
+  <p class="Gega">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Quisquam, ex repudiandae nulla expedita quis aliquid quasi facilis laudantium earum 
+    quibusdam ipsam perferendis dolore harum soluta unde aperiam veniam vitae pariatur.</p><br>
+    <p class="Gega">&copy;2024 Gega team EG , inc all rights reserved.</p>
+  </footer>
+</body>
+</html>
