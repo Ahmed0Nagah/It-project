@@ -22,5 +22,5 @@ function hygieneandcleaning(){
     open("../hygiene and cleaning/1.html")
 }
 function sportswear(){
-    open("../sportswear/index.html")
+    open("../sportswear/home.html")
 }

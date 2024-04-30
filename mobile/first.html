@@ -13,6 +13,39 @@
     <header class="header">
         <nav class="navbar">
           <h1 style="font-size: 40px; color: white;font-weight: bold;">Gega store</h1>
+
+
+
+
+
+
+<div class="box">
+    <input type="text" placeholder="search...">
+    <a href="#">
+        <i class="fas fa-search" style="color: white;"></i>
+    </a>
+</div>
+
+
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var searchBox = document.querySelector('.box input[type="text"]');
+    searchBox.addEventListener('keyup', function(event) {
+        if (event.key === 'Enter') {
+            var searchTerm = searchBox.value.trim();
+            if (searchTerm) {
+                window.location.href = 'second.html' ;
+            }
+        }
+    });
+});
+</script>
+
+
+
           <ul>
             <li><a href="../home&login/home.html">home</a></li>
             <li><a href="contact us">contact us</a></li>
@@ -27,6 +60,7 @@
 
 
 
+    
 
 
 
@@ -174,5 +208,9 @@
     quibusdam ipsam perferendis dolore harum soluta unde aperiam veniam vitae pariatur.</p><br>
     <p class="Gega">&copy;2024 Gega team EG , inc all rights reserved.</p>
   </footer>
+
+
+
+  
 </body>
 </html>

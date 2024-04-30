@@ -33,7 +33,7 @@ nav ul li a{
 }
 nav ul li a:hover{
   color: red;
-  transition-duration: 0.3s;
+  transition-duration: 0.6s;
 }
 footer{
   margin-bottom: 0;
@@ -99,6 +99,10 @@ footer a i {
   margin-right: 70px;
   border-radius: 10px;
 }
+.mobile:hover{
+  background-color: rgb(136, 136, 137);
+  transition: 0.8s;
+}
 
 img{
   width: 100%;
@@ -122,7 +126,7 @@ button{
   margin-left:160px;
  display: flex;
  top: 255px;
-
+transition: 400ms;
   
 }
 
@@ -135,4 +139,35 @@ font-weight: bolder;
 border-right: 2px solid rgb(186, 95, 5);
 cursor: pointer;
     }
+    .box{
+      height: 30px;
+      display: flex;
+      cursor: pointer;
+      border-color: #f7f3f3;
+      border-radius: 30px;
+      align-items: center;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    }
+  .box:hover input
+  {  width: 400px;
+
+  }
+  .box input{
+    width: 0;
+    outline: none;
+    font-weight: 500;
+    background: transparent;
+    transition: 0.8s;
+    border: none;
+
+    
+  }
+.ree{
+  font-size: 18px;
+  color: rgb(230, 243, 240);
   
+}
+
+
+
+
