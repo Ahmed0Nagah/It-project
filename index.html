@@ -24,10 +24,12 @@ Gega store
 <div class="truck">
 <h1 style="text-align:left; padding-top:25px;padding-left: 50px; color:white">login,</h1>
 <form class="frm">
-<input type="text"placeholder="Username.."><br>
-<input type="password" id="pass" placeholder="Password..">
+<input id="uname" type="text"placeholder="Username.." required ><br>
+<input type="password" id="pass" placeholder="Password.." required>
 <i id="showpass" onclick="showpass()" class="fa-solid fa-eye"></i><br>
-<button class="btn" onclick="link()">login</button>
+<button id="btn"  class="btn">login</button>
+<div id="errormessege"></div>
+</form>
 
 </div>
 <footer>

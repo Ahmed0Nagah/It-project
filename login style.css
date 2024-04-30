@@ -128,3 +128,14 @@ footer a i {
   text-align: center;
   font-weight:bold;
 }
+.error{
+    color: red;
+    position: relative;
+    bottom: 47px;
+    left: 90px;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 20px;
+    background: white;
+    width: fit-content;
+}
