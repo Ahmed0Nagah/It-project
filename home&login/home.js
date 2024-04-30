@@ -18,3 +18,9 @@ function cars(){
 function Accesories(){
     open("../Accesories/Gega accessories.html");
 }
+function hygieneandcleaning(){
+    open("../hygiene and cleaning/1.html")
+}
+function sportswear(){
+    open("../sportswear/index.html")
+}
