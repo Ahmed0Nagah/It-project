@@ -7,7 +7,7 @@ function mobile(){
     open("../mobile/first.html");
 }
 function weapons(){
-    open("../weapons/home page.html");
+    open("../weapons/Home page.html");
 }
 function home_appliances(){
     open("../home appliances/categoryPage/category.html");
